@@ -4,3 +4,7 @@ set -ex
 
 # Install the bash kernel
 python -m bash_kernel.install
+
+# Install splitcell
+jupyter contrib nbextension install --user
+jupyter nbextension enable splitcell/splitcell
