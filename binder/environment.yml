@@ -2,8 +2,6 @@ channels:
   - conda-forge
 dependencies:
   - rise
-  - conda:
-      - pip
   - pip:
       - jupyter-contrib-nbextensions
       - bash_kernel
