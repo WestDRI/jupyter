@@ -4,3 +4,4 @@ dependencies:
   - rise
   - pip:
     - jupyter-contrib-nbextensions
+    - bash_kernel
